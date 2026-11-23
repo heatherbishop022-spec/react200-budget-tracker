@@ -13,7 +13,7 @@ const Summary = () => {
     const balance = totalIncome - totalExpenses;
 
     return (
-        <div className="bg-blue-100 border border-blue-500 rounded-md p-4 mt-6 w-full max-w-md">
+        <div className="bg-blue-100 border-4 border-blue-500 rounded-xl shadow-lg p-6 mt-6 w-full max-w-md">
             <h2 className="text-2xl font-semibold mb-4">Summary</h2>
             <p className="mb-2">Total Income: ${totalIncome.toFixed(2)}</p>
             <p className="mb-2">Total Expense: ${totalExpenses.toFixed(2)}</p>
